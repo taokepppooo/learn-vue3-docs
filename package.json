@@ -1,7 +1,7 @@
 {
   "name": "learn-vue3-docs",
   "version": "0.0.1",
-  "description": "A VuePress project",
+  "description": "vue3 源码学习doc",
   "license": "MIT",
   "type": "module",
   "scripts": {

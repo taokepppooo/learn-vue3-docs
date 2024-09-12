@@ -6,12 +6,10 @@ export default defineUserConfig({
   lang: 'en-US',
 
   base: '/learn-vue3-docs/',
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'vue3 源码学习doc',
+  description: '记录vue3源码学习过程，以及源码的见解',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
-
     navbar: ['/', '/get-started'],
   }),
 
