@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>VuePress</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/learn-vue3-docs/assets/style-DVZqAxjP.css" as="style"><link rel="stylesheet" href="/learn-vue3-docs/assets/style-DVZqAxjP.css">
+    <link rel="modulepreload" href="/learn-vue3-docs/assets/app-CjwiEATp.js"><link rel="modulepreload" href="/learn-vue3-docs/assets/404.html-CrgRKlf4.js">
+    <link rel="prefetch" href="/learn-vue3-docs/assets/index.html-4V_FCk36.js" as="script"><link rel="prefetch" href="/learn-vue3-docs/assets/get-started.html-ziw-BzJG.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-467566a4><main class="page" data-v-467566a4><div class="theme-default-content" vp-content data-v-467566a4><h1 data-v-467566a4>404</h1><blockquote data-v-467566a4>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/learn-vue3-docs/" data-v-467566a4>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/learn-vue3-docs/assets/app-CjwiEATp.js" defer></script>
+  </body>
+</html>
