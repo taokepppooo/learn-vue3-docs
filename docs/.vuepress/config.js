@@ -10,7 +10,7 @@ export default defineUserConfig({
   description: '记录vue3源码学习过程，以及源码的见解',
 
   theme: defaultTheme({
-    navbar: ['/', '/get-started'],
+    navbar: ['/', '/source-learn', '/get-started'],
   }),
 
   bundler: viteBundler(),
