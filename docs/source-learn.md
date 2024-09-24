@@ -27,3 +27,5 @@
 - `createBaseVNode`方法会首先初始化一个`vnode`对象
 ![alt 虚拟节点初始化对象](./image/mount-vnode-init-obj.png)
 - 执行`render`方法，`render`方法会根据`shapeFlag`的值，执行不同的渲染逻辑。
+- 最终都会执行`compileToFunction`方法，将`template`编译为`render`函数。
+- `tokenizer.parse(template)`会解析`template`字符串，并且将解析的值放到`Tokenizer`对象的属性中。
